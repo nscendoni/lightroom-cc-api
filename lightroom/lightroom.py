@@ -24,6 +24,7 @@ class Lightroom:
             'Authorization': 'Bearer ' + token
         })
         self.base = base
+        self.api_key = api_key
 
     #
     # Helpers
